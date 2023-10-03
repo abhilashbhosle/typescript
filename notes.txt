@@ -1,0 +1,21 @@
+TYPESCRIPT:
+==========
+=>Typescript is considered as superset of javascript.
+=>Typescript is just a development tool, but execution and all happens in javascript only.
+=>Typescript does the static check, it make the developers aware of errors while writing the code.
+=>* To transpile/convert ts to js we use syntax=> tsc filename
+
+DATA TYPES IN TYPESCRIPT:
+=========================
+Number, String, Boolean, Null, Undefined, Void, Object, Array, Tupples, ...etc
+
+SYNTAX:
+======
+let variableName:type=value
+note: All the types in typescript are lowercase.
+
+TYPE INFERENCE:
+==============
+=>In order to make the variable strictly to the type there is no need of mentioning type in the syntax.
+=>As your file is .ts it automatically considers the type for which it's declared initially
+eg : let variableName=value (THIS IS ALSO THE CORRECT FORMAT)
