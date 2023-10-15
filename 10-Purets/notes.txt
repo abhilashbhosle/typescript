@@ -1,0 +1,5 @@
+=> we have created index.js and linked it inside the index.html as web only understands the js.
+=> but the code we write is in 'ts' but it doesn't know in which folder to transpile the code.
+=> to acheive this thers is an output directory inside tsconfig.json file, we need to mention the index.js
+   path there
+=>to acheive this transpilation we need to run ts file in watchmode ie. tsc -w  
